@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'Swiftesla_Example' do
+  pod 'Swiftesla', :path => '../'
+
+  target 'Swiftesla_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

@@ -1,0 +1,16 @@
+PODS:
+  - Swiftesla (0.1.0)
+
+DEPENDENCIES:
+  - Swiftesla (from `../`)
+
+EXTERNAL SOURCES:
+  Swiftesla:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Swiftesla: a433f704e30768706e394f9926cd858f998669a1
+
+PODFILE CHECKSUM: 3cb07fc4ff34ed0f38cbdb930e6b1377c32272c8
+
+COCOAPODS: 1.8.4

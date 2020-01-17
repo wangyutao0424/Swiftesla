@@ -1,0 +1,6 @@
+framework module Swiftesla {
+  umbrella header "Swiftesla-umbrella.h"
+
+  export *
+  module * { export * }
+}
