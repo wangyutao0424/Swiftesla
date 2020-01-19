@@ -7,7 +7,7 @@
 
 import UIKit
 
-public extension UIColor {
+extension UIColor {
     static let colorComponentMax: Float = 255.0
     static let colorComponentMin: Float = 0.0
 
