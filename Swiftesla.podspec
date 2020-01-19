@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Swiftesla'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A short description of Swiftesla.'
   s.description      = 'A Swift tool kit'
   s.homepage         = 'https://github.com/wangyutao/Swiftesla'
@@ -18,5 +18,6 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '9.0'
   s.source_files = 'Swiftesla/Classes/**/*'
   s.swift_versions = ['5.0']
+  s.resources = ['Swiftesla/Assets/*.xcassets']
 #   s.dependency 'AFNetworking', '~> 2.3'
 end
