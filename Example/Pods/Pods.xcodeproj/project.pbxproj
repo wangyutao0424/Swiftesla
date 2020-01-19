@@ -8,14 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		113F643ABCFEFE00559A8B433369352F /* Pods-Swiftesla_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F40B4FDF29DDED9813BF010C568D0AE8 /* Pods-Swiftesla_Tests-dummy.m */; };
+		122B520140AA18A0C1DFE74A38211DD2 /* UITextField+DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AEFAE4B16D250721A9BCC352F56A60F /* UITextField+DSL.swift */; };
+		1E896031FECABD2ECB2CFC284081C0F1 /* UIImage+DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = A003499604826BC42EE5030FFCE2D439 /* UIImage+DSL.swift */; };
+		380793144EC3013ABDCFC8B3D3D2CFCD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		3D45A347708180E175D4AB6CF3CFA18E /* UILabel+DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2BC9FF5DC22DB2494CB33CB827F1DCC /* UILabel+DSL.swift */; };
+		3E85A2EA4FDF726277D99C598F9B9152 /* UIView+DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9186F52CBE2A918F24C27B892AACF47D /* UIView+DSL.swift */; };
+		439DFDA2C37B7CA0493071B7AE95212E /* UIImageView+DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59138B21CCB499D910B89F74C9DDF299 /* UIImageView+DSL.swift */; };
 		45E8A4F6B8C0302E832E3385A79F2630 /* Pods-Swiftesla_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EFB8BCE77E3299186D2DBB909825B495 /* Pods-Swiftesla_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		50A11A548AC81B6E24BC04504240D469 /* Pods-Swiftesla_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F884A3E995B62D37FC58AD7BAC917BB /* Pods-Swiftesla_Example-dummy.m */; };
 		5C7920A43E656D02043DB5F22BC7739D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		63BBFE659D195CB9167E5552C4142070 /* Swiftesla-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 23EADE7E060968DE152A7774B5F3F220 /* Swiftesla-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8435ADB398BF739B397EBAF455670EDD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		6DB82E46D534C9BB238B3E1766D56385 /* NSAttributedString+DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC88C3C28E47BFABA7881F522CA7C93D /* NSAttributedString+DSL.swift */; };
+		788EB5819529142022C257940CBBC981 /* UIStackView+DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CAE707A6BB336BFC3B9C4F6FB113CC /* UIStackView+DSL.swift */; };
 		906D602698BD1BB2936D30A0829DB064 /* Pods-Swiftesla_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DC74782DF63772FB2BEF7E2A3823D1BF /* Pods-Swiftesla_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D1A09803D5EC273689D37CA48912D100 /* Swiftesla-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B0E98535F0C31F76AEDB788A499818E /* Swiftesla-dummy.m */; };
+		A13362AF8FADC189E193DACEE4CD1758 /* UIColor+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC575430D4755F888D3BC66ED1C2EA2 /* UIColor+Extention.swift */; };
+		ADAC7422AABECF0F59BE46CB59CD2979 /* Swiftesla-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A61FA89783E293A2C14D39176C0A293 /* Swiftesla-dummy.m */; };
+		CD15A42E0A9A9D93BE8941657AAF20EF /* Swiftesla-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CC3D4EBDACBA5047EE6139D1C2ACE93 /* Swiftesla-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DBB15734C77DA971CB74C8A16017D5D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		F3DF14A6207DDDDFB0DB4574423E50AF /* UIButton+DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF1ED5FDA934FB5BF1D403F893A77B8 /* UIButton+DSL.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,34 +48,43 @@
 		009BCEEAF765CC4C786DF88E8760DF43 /* Pods-Swiftesla_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Swiftesla_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		0142758198F93387D8E9553C344C5740 /* Pods-Swiftesla_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Swiftesla_Example.release.xcconfig"; sourceTree = "<group>"; };
 		063B677B701D2A3F16A99E942A242D18 /* Pods-Swiftesla_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Swiftesla_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		0921E609DD90F5CDF0FB0E6C6A5AFB76 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		09844CAAA5CC468FF326EAD927930885 /* Swiftesla-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Swiftesla-prefix.pch"; sourceTree = "<group>"; };
+		0CC3D4EBDACBA5047EE6139D1C2ACE93 /* Swiftesla-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Swiftesla-umbrella.h"; sourceTree = "<group>"; };
 		0ECFEE2E00D749A69542356805CCF749 /* Pods-Swiftesla_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Swiftesla_Tests-Info.plist"; sourceTree = "<group>"; };
-		16B41ABD8477F18089B8786FB2E24522 /* Swiftesla-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Swiftesla-Info.plist"; sourceTree = "<group>"; };
 		1A41D496187B5ED8DAE00E57BFC225BB /* Pods-Swiftesla_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Swiftesla_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		1F786DADC7E345867599E3F9CAD98DBA /* Swiftesla.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Swiftesla.modulemap; sourceTree = "<group>"; };
-		23EADE7E060968DE152A7774B5F3F220 /* Swiftesla-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Swiftesla-umbrella.h"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3A61FA89783E293A2C14D39176C0A293 /* Swiftesla-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Swiftesla-dummy.m"; sourceTree = "<group>"; };
 		4F884A3E995B62D37FC58AD7BAC917BB /* Pods-Swiftesla_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Swiftesla_Example-dummy.m"; sourceTree = "<group>"; };
+		59138B21CCB499D910B89F74C9DDF299 /* UIImageView+DSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIImageView+DSL.swift"; sourceTree = "<group>"; };
 		5A05EDB4F5D0670777839E45FD780602 /* Pods-Swiftesla_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Swiftesla_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		5AEFAE4B16D250721A9BCC352F56A60F /* UITextField+DSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UITextField+DSL.swift"; sourceTree = "<group>"; };
 		5C56FFEC2351919A176329263EE47761 /* Pods-Swiftesla_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Swiftesla_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		6514AD9F7BC57A548DCBCE1ED1739E9A /* Swiftesla.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Swiftesla.xcconfig; sourceTree = "<group>"; };
+		654332A18FCEE49C5BFE7C23926F3C69 /* Swiftesla.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Swiftesla.xcconfig; sourceTree = "<group>"; };
+		684F31545CE58E4DD5656F5FC3D3C27F /* Swiftesla.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Swiftesla.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		7C61E9F09831D2B6A78356D2670BAE5B /* Pods-Swiftesla_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Swiftesla_Tests.modulemap"; sourceTree = "<group>"; };
+		88CAE707A6BB336BFC3B9C4F6FB113CC /* UIStackView+DSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIStackView+DSL.swift"; sourceTree = "<group>"; };
+		9186F52CBE2A918F24C27B892AACF47D /* UIView+DSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIView+DSL.swift"; sourceTree = "<group>"; };
+		937A0A98EC13A67B20D0EB590A6C0218 /* Swiftesla.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Swiftesla.modulemap; sourceTree = "<group>"; };
 		987FFC54154A847A6D929698C5C8F8C3 /* Pods-Swiftesla_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Swiftesla_Example-frameworks.sh"; sourceTree = "<group>"; };
-		9B0E98535F0C31F76AEDB788A499818E /* Swiftesla-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Swiftesla-dummy.m"; sourceTree = "<group>"; };
-		9B9CCE4FFD7DEF4A58CB2A1BFB0B7FD4 /* Pods_Swiftesla_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Swiftesla_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A336A1224763239C1856DE3FC219796E /* Pods_Swiftesla_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Swiftesla_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B9CCE4FFD7DEF4A58CB2A1BFB0B7FD4 /* Pods_Swiftesla_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Swiftesla_Example.framework; path = "Pods-Swiftesla_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A003499604826BC42EE5030FFCE2D439 /* UIImage+DSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIImage+DSL.swift"; sourceTree = "<group>"; };
+		A2CFF05AAB454B2D1A9B0C35D1B22987 /* Swiftesla-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Swiftesla-prefix.pch"; sourceTree = "<group>"; };
+		A336A1224763239C1856DE3FC219796E /* Pods_Swiftesla_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Swiftesla_Tests.framework; path = "Pods-Swiftesla_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1162FD2B765F0B743641F981900F960 /* Pods-Swiftesla_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Swiftesla_Example-Info.plist"; sourceTree = "<group>"; };
-		B963C7F8E2E3CFFC95669E9F50257D0B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		BBF1ED5FDA934FB5BF1D403F893A77B8 /* UIButton+DSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIButton+DSL.swift"; sourceTree = "<group>"; };
+		C261198147708CD3095801ED5FFDF7F1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		C2BC9FF5DC22DB2494CB33CB827F1DCC /* UILabel+DSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UILabel+DSL.swift"; sourceTree = "<group>"; };
 		C2BE55883C7AD7BF9BF5BDDE425813E4 /* Pods-Swiftesla_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Swiftesla_Example.modulemap"; sourceTree = "<group>"; };
-		C4216336D03F26C0CDA010F48D64C260 /* Swiftesla.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = Swiftesla.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C60C663C076A6FF671977E1DE4CB7842 /* Pods-Swiftesla_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Swiftesla_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		D45832FCD3564AD9A0A07C69FEAF42D3 /* Swiftesla.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Swiftesla.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D41169CF3BE1C59313EB5E957D09E783 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		D45832FCD3564AD9A0A07C69FEAF42D3 /* Swiftesla.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Swiftesla.framework; path = Swiftesla.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D62FDF225335E96D7629EC62388A6EE2 /* Swiftesla-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Swiftesla-Info.plist"; sourceTree = "<group>"; };
 		DC74782DF63772FB2BEF7E2A3823D1BF /* Pods-Swiftesla_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Swiftesla_Tests-umbrella.h"; sourceTree = "<group>"; };
+		EC88C3C28E47BFABA7881F522CA7C93D /* NSAttributedString+DSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "NSAttributedString+DSL.swift"; sourceTree = "<group>"; };
 		EFB8BCE77E3299186D2DBB909825B495 /* Pods-Swiftesla_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Swiftesla_Example-umbrella.h"; sourceTree = "<group>"; };
 		F40B4FDF29DDED9813BF010C568D0AE8 /* Pods-Swiftesla_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Swiftesla_Tests-dummy.m"; sourceTree = "<group>"; };
 		F9AF26881E54EF98E7039663EA3E3994 /* Pods-Swiftesla_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Swiftesla_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		FEC575430D4755F888D3BC66ED1C2EA2 /* UIColor+Extention.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIColor+Extention.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,14 +96,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8F67CF5A639AC15531545B338D5D9FAA /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8435ADB398BF739B397EBAF455670EDD /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		AF0D82DD0A35561D202B1F45BABC7D4B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -94,15 +104,39 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C5004449FF87960520702087A465930D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				380793144EC3013ABDCFC8B3D3D2CFCD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4403199A772411626D85A3E96A4FC3CC /* Development Pods */ = {
+		051F4DEDD658C71B9F9E333FF13DE1C4 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				A33CA3B1E3712E4FA4FEEA46E5BD851C /* Swiftesla */,
+				937A0A98EC13A67B20D0EB590A6C0218 /* Swiftesla.modulemap */,
+				654332A18FCEE49C5BFE7C23926F3C69 /* Swiftesla.xcconfig */,
+				3A61FA89783E293A2C14D39176C0A293 /* Swiftesla-dummy.m */,
+				D62FDF225335E96D7629EC62388A6EE2 /* Swiftesla-Info.plist */,
+				A2CFF05AAB454B2D1A9B0C35D1B22987 /* Swiftesla-prefix.pch */,
+				0CC3D4EBDACBA5047EE6139D1C2ACE93 /* Swiftesla-umbrella.h */,
 			);
-			name = "Development Pods";
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Swiftesla";
+			sourceTree = "<group>";
+		};
+		431F12495DE73EF35E227A8258925141 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				D41169CF3BE1C59313EB5E957D09E783 /* LICENSE */,
+				C261198147708CD3095801ED5FFDF7F1 /* README.md */,
+				684F31545CE58E4DD5656F5FC3D3C27F /* Swiftesla.podspec */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		5A76FEF4246F4705CDB3CEA7E28907C0 /* Pods-Swiftesla_Tests */ = {
@@ -119,6 +153,31 @@
 			);
 			name = "Pods-Swiftesla_Tests";
 			path = "Target Support Files/Pods-Swiftesla_Tests";
+			sourceTree = "<group>";
+		};
+		5FC4FFA014C5E9A6835E465803ECE079 /* DSL */ = {
+			isa = PBXGroup;
+			children = (
+				EC88C3C28E47BFABA7881F522CA7C93D /* NSAttributedString+DSL.swift */,
+				BBF1ED5FDA934FB5BF1D403F893A77B8 /* UIButton+DSL.swift */,
+				A003499604826BC42EE5030FFCE2D439 /* UIImage+DSL.swift */,
+				59138B21CCB499D910B89F74C9DDF299 /* UIImageView+DSL.swift */,
+				C2BC9FF5DC22DB2494CB33CB827F1DCC /* UILabel+DSL.swift */,
+				88CAE707A6BB336BFC3B9C4F6FB113CC /* UIStackView+DSL.swift */,
+				5AEFAE4B16D250721A9BCC352F56A60F /* UITextField+DSL.swift */,
+				9186F52CBE2A918F24C27B892AACF47D /* UIView+DSL.swift */,
+			);
+			name = DSL;
+			path = Swiftesla/Classes/DSL;
+			sourceTree = "<group>";
+		};
+		6E150834345A28FB0EA4D31BFC006748 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				FEC575430D4755F888D3BC66ED1C2EA2 /* UIColor+Extention.swift */,
+			);
+			name = UIKit;
+			path = Swiftesla/Classes/UIKit;
 			sourceTree = "<group>";
 		};
 		7B9B488486ADE0903BA7D6147B2650E2 /* Pods-Swiftesla_Example */ = {
@@ -138,20 +197,6 @@
 			path = "Target Support Files/Pods-Swiftesla_Example";
 			sourceTree = "<group>";
 		};
-		7CBDDD071112DBB1AC677D090D762B0F /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				1F786DADC7E345867599E3F9CAD98DBA /* Swiftesla.modulemap */,
-				6514AD9F7BC57A548DCBCE1ED1739E9A /* Swiftesla.xcconfig */,
-				9B0E98535F0C31F76AEDB788A499818E /* Swiftesla-dummy.m */,
-				16B41ABD8477F18089B8786FB2E24522 /* Swiftesla-Info.plist */,
-				09844CAAA5CC468FF326EAD927930885 /* Swiftesla-prefix.pch */,
-				23EADE7E060968DE152A7774B5F3F220 /* Swiftesla-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/Swiftesla";
-			sourceTree = "<group>";
-		};
 		9760D55A857AAE9EDF558A462AE0E9CB /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -161,14 +206,12 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		A33CA3B1E3712E4FA4FEEA46E5BD851C /* Swiftesla */ = {
+		A9337A5CEE37CB442F637A2E450F0D06 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				EC4DD4014D6D668997D6952C035E5F7D /* Pod */,
-				7CBDDD071112DBB1AC677D090D762B0F /* Support Files */,
+				C7562FF382F33C20C45C5AF73F16A608 /* Swiftesla */,
 			);
-			name = Swiftesla;
-			path = ../..;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -179,11 +222,23 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		C7562FF382F33C20C45C5AF73F16A608 /* Swiftesla */ = {
+			isa = PBXGroup;
+			children = (
+				5FC4FFA014C5E9A6835E465803ECE079 /* DSL */,
+				431F12495DE73EF35E227A8258925141 /* Pod */,
+				051F4DEDD658C71B9F9E333FF13DE1C4 /* Support Files */,
+				6E150834345A28FB0EA4D31BFC006748 /* UIKit */,
+			);
+			name = Swiftesla;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				4403199A772411626D85A3E96A4FC3CC /* Development Pods */,
+				A9337A5CEE37CB442F637A2E450F0D06 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				EC9E935774F3E8B92F507D133A081114 /* Products */,
 				9760D55A857AAE9EDF558A462AE0E9CB /* Targets Support Files */,
@@ -196,16 +251,6 @@
 				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		EC4DD4014D6D668997D6952C035E5F7D /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				0921E609DD90F5CDF0FB0E6C6A5AFB76 /* LICENSE */,
-				B963C7F8E2E3CFFC95669E9F50257D0B /* README.md */,
-				C4216336D03F26C0CDA010F48D64C260 /* Swiftesla.podspec */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		EC9E935774F3E8B92F507D133A081114 /* Products */ = {
@@ -221,6 +266,14 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		041333468E497CE1B4D80F54AF62C5C5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD15A42E0A9A9D93BE8941657AAF20EF /* Swiftesla-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		677183C2AD979886CEE8617D77E7AA78 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -234,14 +287,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				906D602698BD1BB2936D30A0829DB064 /* Pods-Swiftesla_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DB8D1E58981C07EA3BC8E54F4EDA67CB /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				63BBFE659D195CB9167E5552C4142070 /* Swiftesla-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,12 +314,12 @@
 		};
 		9BB572735B05601208926CEB8820B6B7 /* Swiftesla */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AECC4A7019BE17174E4735FE12C30093 /* Build configuration list for PBXNativeTarget "Swiftesla" */;
+			buildConfigurationList = 02779C4BB113F52F2CF70E3D3D5CBB51 /* Build configuration list for PBXNativeTarget "Swiftesla" */;
 			buildPhases = (
-				DB8D1E58981C07EA3BC8E54F4EDA67CB /* Headers */,
-				ACD83DC1EC3A53AB6FC3CBB5E392BFC8 /* Sources */,
-				8F67CF5A639AC15531545B338D5D9FAA /* Frameworks */,
-				7AAB19F6E2DBE121C3C966CA92A77E14 /* Resources */,
+				041333468E497CE1B4D80F54AF62C5C5 /* Headers */,
+				4323CAD40094E51CD15BFF38549D4937 /* Sources */,
+				C5004449FF87960520702087A465930D /* Frameworks */,
+				5F7CA61E022353AD22AB0D2BE8597E5C /* Resources */,
 			);
 			buildRules = (
 			);
@@ -340,7 +385,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7AAB19F6E2DBE121C3C966CA92A77E14 /* Resources */ = {
+		5F7CA61E022353AD22AB0D2BE8597E5C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -357,6 +402,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		4323CAD40094E51CD15BFF38549D4937 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DB82E46D534C9BB238B3E1766D56385 /* NSAttributedString+DSL.swift in Sources */,
+				ADAC7422AABECF0F59BE46CB59CD2979 /* Swiftesla-dummy.m in Sources */,
+				F3DF14A6207DDDDFB0DB4574423E50AF /* UIButton+DSL.swift in Sources */,
+				A13362AF8FADC189E193DACEE4CD1758 /* UIColor+Extention.swift in Sources */,
+				1E896031FECABD2ECB2CFC284081C0F1 /* UIImage+DSL.swift in Sources */,
+				439DFDA2C37B7CA0493071B7AE95212E /* UIImageView+DSL.swift in Sources */,
+				3D45A347708180E175D4AB6CF3CFA18E /* UILabel+DSL.swift in Sources */,
+				788EB5819529142022C257940CBBC981 /* UIStackView+DSL.swift in Sources */,
+				122B520140AA18A0C1DFE74A38211DD2 /* UITextField+DSL.swift in Sources */,
+				3E85A2EA4FDF726277D99C598F9B9152 /* UIView+DSL.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		458CCABE9FA200313FD660CDA651CC88 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -370,14 +432,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				50A11A548AC81B6E24BC04504240D469 /* Pods-Swiftesla_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		ACD83DC1EC3A53AB6FC3CBB5E392BFC8 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D1A09803D5EC273689D37CA48912D100 /* Swiftesla-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -466,9 +520,9 @@
 			};
 			name = Release;
 		};
-		71F5863BFEAAA76A96C2F84A1D47BFB5 /* Debug */ = {
+		7D4B7DA5A847CDD02E70727873559B29 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6514AD9F7BC57A548DCBCE1ED1739E9A /* Swiftesla.xcconfig */;
+			baseConfigurationReference = 654332A18FCEE49C5BFE7C23926F3C69 /* Swiftesla.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -482,7 +536,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/Swiftesla/Swiftesla-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/Swiftesla/Swiftesla-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Swiftesla/Swiftesla.modulemap";
 				PRODUCT_MODULE_NAME = Swiftesla;
@@ -490,7 +544,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -529,6 +583,38 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		A028C98D15A7FB555C72C5CDC67F5A5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 654332A18FCEE49C5BFE7C23926F3C69 /* Swiftesla.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Swiftesla/Swiftesla-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Swiftesla/Swiftesla-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Swiftesla/Swiftesla.modulemap";
+				PRODUCT_MODULE_NAME = Swiftesla;
+				PRODUCT_NAME = Swiftesla;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		A5A04C11B25A76590E33BDA94709EC6D /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -617,7 +703,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -687,41 +774,18 @@
 			};
 			name = Debug;
 		};
-		B9D783CC4771513313AA39EB91FEE765 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6514AD9F7BC57A548DCBCE1ED1739E9A /* Swiftesla.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Swiftesla/Swiftesla-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Swiftesla/Swiftesla-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Swiftesla/Swiftesla.modulemap";
-				PRODUCT_MODULE_NAME = Swiftesla;
-				PRODUCT_NAME = Swiftesla;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		02779C4BB113F52F2CF70E3D3D5CBB51 /* Build configuration list for PBXNativeTarget "Swiftesla" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D4B7DA5A847CDD02E70727873559B29 /* Debug */,
+				A028C98D15A7FB555C72C5CDC67F5A5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -736,15 +800,6 @@
 			buildConfigurations = (
 				25DC572DB471C59EAC3AD98EA9A71A65 /* Debug */,
 				46366B1B283752194A4113D1EC5DB4FA /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		AECC4A7019BE17174E4735FE12C30093 /* Build configuration list for PBXNativeTarget "Swiftesla" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				71F5863BFEAAA76A96C2F84A1D47BFB5 /* Debug */,
-				B9D783CC4771513313AA39EB91FEE765 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

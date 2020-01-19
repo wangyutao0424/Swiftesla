@@ -2,7 +2,7 @@
   "name": "Swiftesla",
   "version": "0.1.0",
   "summary": "A short description of Swiftesla.",
-  "description": "TODO: Add long description of the pod here.",
+  "description": "A Swift tool kit",
   "homepage": "https://github.com/wangyutao/Swiftesla",
   "license": {
     "type": "MIT",
@@ -12,11 +12,11 @@
     "wangyutao": "wangyutao0424@163.com"
   },
   "source": {
-    "git": "https://github.com/wangyutao/Swiftesla.git",
+    "git": "https://github.com/wangyutao0424/Swiftesla.git",
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
   "source_files": "Swiftesla/Classes/**/*"
 }
